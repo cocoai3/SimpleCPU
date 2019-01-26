@@ -1,0 +1,132 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do cpu_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/sm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sm
+# 
+# Top level modules:
+# 	sm
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/reg16.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module reg16
+# 
+# Top level modules:
+# 	reg16
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/muxreg16.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module muxreg16
+# 
+# Top level modules:
+# 	muxreg16
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/cpu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/imem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/dmem.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/count16rle.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module count16rle
+# 
+# Top level modules:
+# 	count16rle
+# 
+# vlog -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline {G:/FPGA/cpu_pipeline/cpu2_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cpu_tb
+# 
+# Top level modules:
+# 	cpu_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  cpu_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps cpu_tb 
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.sm
+# Loading work.count16rle
+# Loading work.imem
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.reg16
+# Loading work.regfile
+# Loading work.muxreg16
+# Loading work.alu
+# Loading work.dmem
+# ** Warning: (vsim-3017) G:/FPGA/cpu_pipeline/cpu.v(78): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /cpu_tb/cpu/pc1
+# ** Warning: (vsim-3722) G:/FPGA/cpu_pipeline/cpu.v(78): [TFMPC] - Missing connection for port 'inc'.
+# 
+# ** Warning: (vsim-3017) G:/FPGA/cpu_pipeline/cpu.v(86): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /cpu_tb/cpu/pc2
+# ** Warning: (vsim-3015) G:/FPGA/cpu_pipeline/cpu.v(86): [PCDPC] - Port size (16 or 16) does not match connection size (1) for port 'q'. The port definition is at: G:/FPGA/cpu_pipeline/count16rle.v(2).
+# 
+#         Region: /cpu_tb/cpu/pc2
+# ** Warning: (vsim-3722) G:/FPGA/cpu_pipeline/cpu.v(86): [TFMPC] - Missing connection for port 'inc'.
+# 
+# ** Warning: (vsim-3015) G:/FPGA/cpu_pipeline/cpu.v(91): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'address'. The port definition is at: G:/FPGA/cpu_pipeline/imem.v(40).
+# 
+#         Region: /cpu_tb/cpu/imem
+# ** Warning: (vsim-3015) G:/FPGA/cpu_pipeline/cpu.v(183): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'address'. The port definition is at: G:/FPGA/cpu_pipeline/dmem.v(40).
+# 
+#         Region: /cpu_tb/cpu/dmem
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: student  Hostname: ccrpt065  ProcessID: 4753
+# 
+#           Attempting to use alternate WLF file "./wlftyz6r3z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftyz6r3z
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : G:/FPGA/cpu_pipeline/cpu2_tb.v(33)
+#    Time: 103120 ps  Iteration: 0  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at G:/FPGA/cpu_pipeline/cpu2_tb.v line 33
+# Simulation Breakpoint: 1
+# Break in Module cpu_tb at G:/FPGA/cpu_pipeline/cpu2_tb.v line 33
+# MACRO ./cpu_run_msim_rtl_verilog.do PAUSED at line 25
+# WARNING: No extended dataflow license exists

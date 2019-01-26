@@ -1,0 +1,73 @@
+
+
+D:/FPGA/cpu/imem.v
+
+Apr 27 03PM:27:18>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+imem.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/FPGA/cpu/imem.v
+
+Apr 27 03PM:30:41>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+imem.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/FPGA/cpu/imem.v
+
+Apr 27 03PM:33:58>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+imem.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/FPGA/cpu/imem.v
+
+Apr 28 01PM:28:44>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+imem.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/FPGA/cpu/imem.v
+
+Apr 29 10PM:07:59>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+imem.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+D:/FPGA/cpu/imem.v
+
+Apr 29 10PM:48:41>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+imem.vhd
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?

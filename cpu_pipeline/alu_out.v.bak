@@ -1,0 +1,20 @@
+module reg16 (
+  output reg [15:0] alu_out,
+  output reg [15:0] dr_out,
+  input [15:0] alu,
+  input [15:0] dr,
+  input load,
+  input CLK,
+  input RSTN
+  );
+  always @(posedge CLK or negedge RSTN)
+  begin
+    if (!RSTN) begin
+      q <= 0;
+    end
+    else if (load) begin
+      alu_out <= alu;
+      dr_out <= dr
+    end		
+  end
+endmodule

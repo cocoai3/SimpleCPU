@@ -1,0 +1,22 @@
+module mux (
+  output reg [15:0] q,
+  input [15:0] d_a,
+  input [15:0] d_d,
+  input [1:0] wsel
+  input load,
+  input CLK,
+  input RSTN
+  );
+  always @(posedge CLK or negedge RSTN)
+  begin
+    if (!RSTN) begin
+      q <= 0;
+    end
+    else if (load) begin
+      case (wsel)
+      2'b00 : q <= d_a
+      2'b10 : q <= d_d
+      endcase
+    end		
+  end
+endmodule

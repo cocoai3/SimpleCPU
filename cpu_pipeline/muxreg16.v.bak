@@ -1,0 +1,40 @@
+module muxreg16 (
+  output reg [15:0] q,
+  input [15:0] d0,
+  input [15:0] d1,
+  input [15:0] d2,
+  input [15:0] d3,
+  input [15:0] d4,
+  input [15:0] d5,
+  input [15:0] d6,
+  input [15:0] d7,
+  input [15:0] d_ex,
+  input [15:0] d_wb,
+  input load,
+  input [2:0] sel,
+  input ex,
+  input wb,
+  input CLK,
+  input RSTN
+  );
+  always @(posedge CLK or negedge RSTN)
+  begin
+    if (!RSTN) begin
+      q <= 0;
+    end
+    else if (load) begin
+      case (sel,ex,wb)
+      5'b000_0_0 : q <= d0;
+      5'b001_0_0 : q <= d1;
+      5'b010_0_0 : q <= d2;
+      5'b011_0_0 : q <= d3;
+      5'b100_0_0 : q <= d4;
+      5'b101_0_0 : q <= d5;
+      5'b110_0_0 : q <= d6;
+      5'b111_0_0 : q <= d7;
+      5'bxxx_1_0 : q <= d_ex;
+      5'bxxx_0_1 : q <= d_wb;
+      endcase
+    end		
+  end
+endmodule

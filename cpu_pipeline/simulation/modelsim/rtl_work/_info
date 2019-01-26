@@ -1,0 +1,205 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\FPGA\cpu_pipeline\simulation\modelsim
+valu
+I0fQV1?UcE@R_>:i:c8oDo0
+VfY2ZhW1k6IbVR<8QWT:HB3
+Z1 dG:\FPGA\cpu_pipeline\simulation\modelsim
+w1527747960
+8G:/FPGA/cpu_pipeline/alu.v
+FG:/FPGA/cpu_pipeline/alu.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+G:/FPGA/cpu_pipeline -O0
+!i10b 1
+!s100 BCF5V;i5B`n7ag8j4lYkj3
+!s85 0
+!s108 1528029014.152000
+!s107 G:/FPGA/cpu_pipeline/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/alu.v|
+!s101 -O0
+vcount16rle
+IPzWdX?UYmMi4eQ8Ee0cTP3
+VdnT6Q?i3KhEAU5d55kXP93
+R1
+w1524824880
+8G:/FPGA/cpu_pipeline/count16rle.v
+FG:/FPGA/cpu_pipeline/count16rle.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 hla5:3To]Fk`W26R@iTmU3
+!s85 0
+!s108 1528029015.816000
+!s107 G:/FPGA/cpu_pipeline/count16rle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/count16rle.v|
+!s101 -O0
+vcpu
+IhZC3o10h]DI38ofPh1UO_3
+V=c[l`A_OeH];IbQOYQz_b1
+R1
+Z5 w1527139920
+8G:/FPGA/cpu_pipeline/cpu.v
+FG:/FPGA/cpu_pipeline/cpu.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 OK92^H^g7XDXXLedCB0YX0
+!s85 0
+!s108 1528029013.664000
+!s107 G:/FPGA/cpu_pipeline/cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/cpu.v|
+!s101 -O0
+vcpu_tb
+!i10b 1
+!s100 =ELnDc0WS]KO93]JGiR0Y1
+IY4`m6z4GREn=HR@:9G[?C3
+V0P>[JOo>6KEkgKO=1CbUG0
+R1
+w1524721294
+8G:/FPGA/cpu_pipeline/cpu2_tb.v
+FG:/FPGA/cpu_pipeline/cpu2_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1528029017.376000
+!s107 G:/FPGA/cpu_pipeline/cpu2_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/cpu2_tb.v|
+!s101 -O0
+R3
+R4
+vdmem
+I[bZ]TdUHG^dBFUN2:i;:Y3
+VLIHHaC8a:Io7:Ja3NOR?e1
+R1
+w1524823096
+8G:/FPGA/cpu_pipeline/dmem.v
+FG:/FPGA/cpu_pipeline/dmem.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 CWSN2GelEZ=4?@5GzFFEE0
+!s85 0
+!s108 1528029015.453000
+!s107 G:/FPGA/cpu_pipeline/dmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/dmem.v|
+!s101 -O0
+vimem
+IOH=O0ZTS5NSEO:P`eGg2V1
+VWkDk8MNdbR778P;le=<[m2
+R1
+w1528028952
+8G:/FPGA/cpu_pipeline/imem.v
+FG:/FPGA/cpu_pipeline/imem.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 36`6?eLVlnKa[[cN36bAf0
+!s85 0
+!s108 1528029014.963000
+!s107 G:/FPGA/cpu_pipeline/imem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/imem.v|
+!s101 -O0
+vmuxreg16
+ICN0zf946e^`SWJZkW6b9`1
+V^EQicNgM>:=@7UR1HC1zN0
+R1
+w1526193690
+8G:/FPGA/cpu_pipeline/muxreg16.v
+FG:/FPGA/cpu_pipeline/muxreg16.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 zoQ@a5C:6Uidk[zD`R?HY1
+!s85 0
+!s108 1528029013.348000
+!s107 G:/FPGA/cpu_pipeline/muxreg16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/muxreg16.v|
+!s101 -O0
+vreg16
+I1HaWhm[mnC4A52KaVmP`@1
+VhTP2?f?jg3olV4;:^Z6O:0
+R1
+w1525667942
+8G:/FPGA/cpu_pipeline/reg16.v
+FG:/FPGA/cpu_pipeline/reg16.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 5Z8MRk^a^z;gooXDFJjh^1
+!s85 0
+!s108 1528029012.390000
+!s107 G:/FPGA/cpu_pipeline/reg16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/reg16.v|
+!s101 -O0
+vregfile
+IO1:aP>mT]lLfnPP7AFb:`2
+V2fR0z=HVXlA4d9L<7VGPG1
+R1
+R5
+8G:/FPGA/cpu_pipeline/regfile.v
+FG:/FPGA/cpu_pipeline/regfile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 AB<>f<_OzZkJJ`9d5W:?z2
+!s85 0
+!s108 1528029012.100000
+!s107 G:/FPGA/cpu_pipeline/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/regfile.v|
+!s101 -O0
+vsm
+IE@zzkanC9Y[F7G<R3zYYS0
+VLZ2>5I7hkb=`RmfbYA>`e2
+R1
+w1526114732
+8G:/FPGA/cpu_pipeline/sm.v
+FG:/FPGA/cpu_pipeline/sm.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 QPHdYGKPL;:`7R>=?:dh00
+!s85 0
+!s108 1528029011.369000
+!s107 G:/FPGA/cpu_pipeline/sm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA/cpu_pipeline|G:/FPGA/cpu_pipeline/sm.v|
+!s101 -O0
